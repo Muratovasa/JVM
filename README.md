@@ -22,15 +22,15 @@ public class JvmComprehension {
 ## 
 - ClassLoader'ы беспечивает загрузку классов Java. загружаем JvmComprehension загружается в Application
 - области памяти (стэк (и его фреймы), хип, метаспейс)  
-метаспейс
+1. метаспейс
 JvmComprehension.class
 system.classes
-В стаэке хранятся фреймы
+2. В стаэке хранятся фреймы
 main (int i,o, Integer ii = 2)
 printAll (o,int i, Integer ii, Integer uselessVar)
 toString(o)
 System.out.println(o,i,ii)
-хип
+3. хип
  Object
  String
 
